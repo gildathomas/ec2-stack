@@ -4,7 +4,7 @@ variable "regions" {
 
 variable "identity_token" {
   type      = string
-  sensitive = true
+  ephemeral = true
 }
 
 variable "role_arn" {
