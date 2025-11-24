@@ -1,3 +1,4 @@
+/*
 component "ec2_instances" {
   for_each = var.regions
   source   = "./ec2"
@@ -14,3 +15,4 @@ component "ec2_instances" {
     subnet_id      = "subnet-02d59fd01e07fbd28"
   }
 }
+
