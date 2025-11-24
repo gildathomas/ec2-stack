@@ -1,4 +1,3 @@
-/*
 component "ec2_instances" {
   for_each = var.regions
   source   = "./ec2"
